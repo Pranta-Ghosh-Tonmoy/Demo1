@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <title>Tech Mart</title>
+   <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Roboto:wght@100;300;400;500;700;900&display=swap"
+      rel="stylesheet">
+   <!-- Favicon link -->
+   <link rel="icon" href="./assets/images/favicon.png" />
+   <!-- Fontawesome Css Link -->
+   <link rel="stylesheet" href="./assets/css/fontawesome.min.css" />
+   <!-- Slick Css Link -->
+   <link rel="stylesheet" href="./assets/css/slick.min.css" />
+   <!-- Venobox Css Link -->
+   <link rel="stylesheet" href="./assets/css/venobox.min.css" type="text/css" media="screen" />
+   <!-- Bootstrap Css Link -->
+   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+   <link rel="stylesheet" href="./assets/css/perfect-scrollbar.css">
+   <!-- Main Css Link -->
+   <link rel="stylesheet" href="./assets/css/style.css" />
+   <!-- Responsive Css Link -->
+   <link rel="stylesheet" href="./assets/css/responsive.css" />
+</head>
+
+<body>
+
+   <section class="backtotop">
+      <i class="fa-solid fa-arrow-up"></i>
+   </section>
+
+
+   <!-- ======= Mobile nav toggle button ======= -->
+   <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+
+   <!---------------------------------
+           Header Section Start 
+    ---------------------------------->
+   <div class="layout_container">
+      <aside id="sidebar">
+         <div class="profile">
+            <img class="img-fluid d-block mx-auto" src="./assets/images/logo.png" alt="">
+         </div>
+         <nav id="nav">
+            <ul id="nav_accordion">
+               <li class="nav-item has_submenu">
+                  <a href="#" class="nav-link active" data-bs-toggle="collapse" data-bs-target="#dashboard">
+                     <img src="./assets/images/bx-home-smile.png" class="img-fluid" alt="">
+                     <span>Dashboard</span>
+                  </a>
+                  <ul id="dashboard" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">eCommerce</a></li>
+                     <li><a href="#" class="inner_col">CRM</a></li>
+                     <li><a href="#" class="inner_col">Analytics</a></li>
+                  </ul>
+               </li>
+               <hr>
+
+
+
+               <div class="nav_category_title">
+                  <h6>Product Management</h6>
+               </div>
+               <li class="nav-item has_submenu">
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#product_management">
+                     <img src="./assets/images/Components.png" class="img-fluid" alt="">
+                     <span>Category</span>
+                  </a>
+                  <ul id="product_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#product2_management">
+                     <img src="./assets/images/shopping-bags 1.png" class="img-fluid" alt="">
+                     <span>Product</span>
+                  </a>
+                  <ul id="product2_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+               </li>
+               <hr>
+
+
+
+               <div class="nav_category_title">
+                  <h6>Order Management</h6>
+               </div>
+               <li class="nav-item has_submenu">
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#order_management">
+                     <img src="./assets/images/Package Godown.png" class="img-fluid" alt="">
+                     <span>Order</span>
+                  </a>
+                  <ul id="order_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#order2_management">
+                     <img src="./assets/images/Parcel Return.png" class="img-fluid" alt="">
+                     <span>Refund Management</span>
+                  </a>
+                  <ul id="order2_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+               </li>
+               <hr>
+
+
+
+               <div class="nav_category_title">
+                  <h6>User Management</h6>
+               </div>
+               <li class="nav-item has_submenu">
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#user_management">
+                     <img src="./assets/images/Users.png" class="img-fluid" alt="">
+                     <span>Users</span>
+                  </a>
+                  <ul id="user_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#user2_management">
+                     <img src="./assets/images/Messages.png" class="img-fluid" alt="">
+                     <span>Messages</span>
+                  </a>
+                  <ul id="user2_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+               </li>
+               <hr>
+
+
+
+               <div class="nav_category_title">
+                  <h6>Board Management</h6>
+               </div>
+               <li class="nav-item has_submenu">
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#board_management">
+                     <img src="./assets/images/Office Bag.png" class="img-fluid" alt="">
+                     <span>Work Space</span>
+                  </a>
+                  <ul id="board_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#board2_management">
+                     <img src="./assets/images/Chat.png" class="img-fluid" alt="">
+                     <span>Discussion</span>
+                  </a>
+                  <ul id="board2_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+               </li>
+               <hr>
+
+
+
+               <div class="nav_category_title">
+                  <h6>Promotion Management</h6>
+               </div>
+               <li class="nav-item has_submenu">
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#promotion_management">
+                     <img src="./assets/images/Advertising.png" class="img-fluid" alt="">
+                     <span>Advertisement</span>
+                  </a>
+                  <ul id="promotion_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#promotion2_management">
+                     <img src="./assets/images/Sale.png" class="img-fluid" alt="">
+                     <span>Offers & Deals</span>
+                  </a>
+                  <ul id="promotion2_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#promotion3_management">
+                     <img src="./assets/images/Notification Bell.png" class="img-fluid" alt="">
+                     <span>Notifications</span>
+                  </a>
+                  <ul id="promotion3_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+               </li>
+               <hr>
+
+
+
+               <div class="nav_category_title">
+                  <h6>System Management</h6>
+               </div>
+               <li class="nav-item has_submenu">
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#system_management">
+                     <img src="./assets/images/Business.png" class="img-fluid" alt="">
+                     <span>Business Setup</span>
+                  </a>
+                  <ul id="system_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+                  <a href="#" class="nav-link" data-bs-toggle="collapse" data-bs-target="#system2_management">
+                     <img src="./assets/images/Sale2.png" class="img-fluid" alt="">
+                     <span>3rd Party</span>
+                  </a>
+                  <ul id="system2_management" class="collapse" data-bs-parent="#nav_accordion">
+                     <li><a href="#" class="inner_col">Category-1</a></li>
+                     <li><a href="#" class="inner_col">Category-2</a></li>
+                     <li><a href="#" class="inner_col">Category-3</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+      </aside>
+      <main id="main_page">
+
+      </main>
+   </div>
+
+
+
+   <!---------------------------------
+              Sub Navbar Section Start 
+       ---------------------------------->
+
+   <section id="topbar">
+      <div class="container">
+         lorem50
+      </div>
+   </section>
+
+   <!---------------------------------
+              Sub Navbar Section End
+       ---------------------------------->
+   </main>
+
+   <!-- End Header -->
+
+   <!-- Menu -->
+
+
+
+
+   <!---------------------------------
+           Header Section End
+    ---------------------------------->
+
+   <!-- Jquery Js Link -->
+   <script src="./assets/js/jquery-1.12.4.min.js"></script>
+   <!-- Slick Js Link -->
+   <script src="./assets/js/slick.min.js"></script>
+   <!-- Bootstrap Js Link -->
+   <script src="./assets/js/bootstrap.min.js"></script>
+   <script src="./assets/js/jquery.countdown.min.js"></script>
+   <script src="./assets/js/venobox.min.js"></script>
+   <script src="./assets/js/perfect-scrollbar.min.js"></script>
+   <!-- Main Js Link -->
+   <script src="./assets/js/script.js"></script>
+</body>
+
+</html>
